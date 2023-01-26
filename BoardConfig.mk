@@ -63,7 +63,7 @@ TARGET_ENABLE_MEDIADRM_64 := true
 TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
 
 # Filesystem
-TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
+TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/configs/config.fs
 
 # FM
 AUDIO_FEATURE_ENABLED_FM_POWER_OPT := true
